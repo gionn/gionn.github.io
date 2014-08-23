@@ -13,3 +13,6 @@ markdown: kramdown
 permalink: /:year/:month/:day/:title/
 paginate: 5
 timezone: Europe/Rome
+
+gems:
+  - jekyll-sitemap
