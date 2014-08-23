@@ -1,0 +1,15 @@
+# Site settings
+title: gionn.net
+email: me@gionn.net
+description: I am an Open-Source enthusiast with SuperCow Powers, a PHP/Java/Ruby/whatever developer, writer of the OpenNebula book, lead developer at ClouDesire, #devops.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://gionn.net" # the base hostname & protocol for your site
+twitter_username: gionn
+github_username:  gionn
+
+# Build settings
+markdown: kramdown
+
+permalink: /:year/:month/:day/:title/
+paginate: 5
+timezone: Europe/Rome
