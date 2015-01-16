@@ -7,7 +7,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
+          <li>{{ site.author }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS feed</a></li>
         </ul>
@@ -43,14 +43,12 @@
             </a>
           </li>
           {% endif %}
+          <li>{% include coinbase.html %}</li>
         </ul>
       </div>
 
       <div class="footer-col  footer-col-3">
         <p class="text">{{ site.description }}</p>
-        <div class="cb-tip-button" data-content-location="" data-href="//www.coinbase.com/tip_buttons/show_tip" data-to-user-id="54b82f1c4d264af6f60000e7"></div>
-        <script>!function(d,s,id) {var js,cjs=d.getElementsByTagName(s)[0],e=d.getElementById(id);if(e){return;}js=d.createElement(s);js.id=id;js.src="https://www.coinbase.com/assets/tips.js";cjs.parentNode.insertBefore(js,cjs);}(document, 'script', 'coinbase-tips');</script>
-
       </div>
     </div>
 
