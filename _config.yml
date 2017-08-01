@@ -19,4 +19,5 @@ timezone: Europe/Rome
 
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
   - jemoji
