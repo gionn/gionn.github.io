@@ -7,6 +7,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://gionn.net" # the base hostname & protocol for your site
 twitter_username: gionn
 github_username:  gionn
+google_analytics: UA-107557-13
+disqus:
+  shortname: gionn-blog
 
 highlighter: rouge
 markdown: kramdown
@@ -21,3 +24,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
+
+theme: minima
